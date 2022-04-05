@@ -9,24 +9,23 @@ body {
   header ul {
     float: right;
     color: black;
-    font-weight: 300;
+    font-weight: 100;
   }
 
   h1 {
       text-align: center;
+      font-size: 50px;
+      font-weight: 300;
   }
   h6 {
       text-align: center;
       font-size: 25px;
+      font-weight: 300;
   }
 
 h3 {
     color: black;
     font-weight: 500;
-    
-    span {
-        font-weight: 300;
-    }
 }
 
   header li {
@@ -38,23 +37,26 @@ h3 {
     font-weight: 300;
   }
   .heroImg {
-    background-color: #EBEBEB;
+
     padding: 100px 15px;
     display: inline-block;
   }
   .content {
-    max-width: 300px;
+    display: inline-block;
+    max-width: 250px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 0;
     background-color: #FFFFFF;
-    text-align: center;
   }
+
   button {
     padding: 15px;
     background-color: #373738;
     color: white;
     font-size: 15px;
     border-radius: 4px;
+    font-family: 'Montserrat';
+    font-weight: 100;
   }
   footer {
     background-color: white;
@@ -90,7 +92,7 @@ h3 {
   .myWork {
     padding: 60px 30px;
     padding-top: 0;
-    background-color: #EBEBEB;
+    background-color: white;
   }
   .workGrid {
     display: grid;
@@ -118,7 +120,7 @@ h3 {
     grid-area: img3;
   }
   .img1, .img2, .img3, .content1, .content2, .content3 {
-    padding: 80px;
+    padding: 40px;
   }
   .content1 {
     grid-area: content1;
