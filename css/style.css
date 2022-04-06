@@ -6,32 +6,60 @@ body {
     background-color: white;
     padding: 15px;
   }
-  header ul {
-    float: right;
-    color: black;
-    font-weight: 100;
+
+  nav {
+      height: 100vh;
+      width: 70vw;
+      min-width: 600px;
+      display: inline-block;
+      justify-content: space-around;
+      margin: auto;
+      float: right;
+  }
+
+  a{
+      position: relative;
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      padding: 0 10px;
+  }
+
+  a:after{
+      content: "";
+      position: absolute;
+      background-color: #f6cfca;
+      height: 3px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;
+  }
+
+  a:hover{
+      color: black;
+  }
+
+  a:hover:after{
+      width: 100%;
   }
 
   h1 {
       text-align: center;
-      font-size: 50px;
-      font-weight: 300;
+      font-weight: 100;
   }
   h6 {
       text-align: center;
       font-size: 25px;
-      font-weight: 300;
+      font-weight: 100;
   }
 
 h3 {
     color: black;
-    font-weight: 700;
+    font-weight: 500;
 }
 
-  header li {
-    display: inline-block;
-    padding: 0px 5px;
-  }
   header p {
     display: inline-block;
     font-weight: 300;
