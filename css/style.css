@@ -103,7 +103,7 @@ h3 {
     padding: 15px 5px;
     font-size: 30px;
   }
-  /* My UX Skills Section */
+
   .flexContainer {
     display: flex;
     padding: 60px 30px;
@@ -116,7 +116,6 @@ h3 {
     padding: 25px;
   }
   
-  /* My Work Section */
   .myWork {
     padding: 60px 30px;
     padding-top: 0;
